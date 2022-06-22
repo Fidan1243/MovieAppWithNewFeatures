@@ -17,14 +17,23 @@ export class MovieDeleteComponent implements OnInit {
     private router:Router) { }
 
   ngOnInit(): void {
-    // this.activatedRouted.params.subscribe(params=>{
-    //   this.movieService.getMovieById(params["movieId"])
-    //   .subscribe(data=>{
-    //     this.movie=data;
-    //   })
-    // })
-    // this.movieService.deleteMovie(this.movie)
-    //   .subscribe(data=>this.router.navigate(['/movies']));
+    this.activatedRouted.params.subscribe(params=>{
+      this.movieService.getMovieById(params["movieD"])
+      .subscribe(data=>{
+        this.movie=data;
+        
+      })
+    })
+  }
+
+  Yes(){
+    console.log(this.movie)
+    this.movieService.deleteMovie(this.movie)
+    .subscribe(data=>this.router.navigate(['/movies']));
+  }
+  No(){
+    this.movieService.getMovies(1)
+    .subscribe(data=>this.router.navigate(['/movies']));
   }
 
 }

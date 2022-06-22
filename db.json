@@ -1,0 +1,59 @@
+{
+  "movies": [
+    {
+      "id": 2,
+      "title": "Julie Verne ",
+      "description": "Salam",
+      "imageUrl": "https://movieposters2.com/images/1849503-b.jpg",
+      "isPopular": 1,
+      "categoryId": 2
+    },
+    {
+      "id": 3,
+      "title": "I Kill Giants123",
+      "description": "I Kill Giants description",
+      "imageUrl": "https://movieposters2.com/images/1520245-b.jpg",
+      "isPopular": false,
+      "datePublished": 1655888685442,
+      "categoryId": "4"
+    },
+    {
+      "headers": {
+        "normalizedNames": {},
+        "lazyUpdate": null
+      },
+      "id": 4
+    },
+    {
+      "title": "Intern",
+      "description": "Ela kino",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c9/The_Intern_Poster.jpg",
+      "isPopular": false,
+      "datePublished": 1655794398456,
+      "categoryId": "3",
+      "id": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "adventure"
+    },
+    {
+      "id": 2,
+      "name": "romantic"
+    },
+    {
+      "id": 3,
+      "name": "comedy"
+    },
+    {
+      "id": 4,
+      "name": "sci-fi"
+    },
+    {
+      "id": 5,
+      "name": "dram"
+    }
+  ]
+}
